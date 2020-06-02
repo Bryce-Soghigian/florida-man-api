@@ -8,5 +8,5 @@ exports.up = function (knex) {
 };
 
 exports.down = function (knex) {
-    return knex.schema.dropTableIfExists("voting")
+  return knex.schema.dropTableIfExists("voting");
 };
